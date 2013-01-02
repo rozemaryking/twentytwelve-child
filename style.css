@@ -15,19 +15,18 @@ Twentytwelve WordPress Theme Child, Copyright (C) 2003-2013 Rosemary King
 
 /* =Reset CSS (v2.0) http://meyerweb.com/eric/tools/css/reset/
 -------------------------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Antic+Didone|Quattrocento:400,700);
 @import url("../twentytwelve/style.css");
-@import url(http://fonts.googleapis.com/css?family=Antic+Didone|Grand+Hotel|Quattrocento:400,700);
 
-.site-title a {font-family: 'Grand+Hotel', serif;}
+.site-title a {
+  font-family: 'Antic Didone', serif;
+  font-size: 54px;
+}
 
 body {
-	font-size: 14px;
-	font-size: 1rem;
-	font-family: font-family: 'Grand+Hotel', serif;
-	text-rendering: optimizeLegibility;
-	color: #444;
+  font-family: 'Quattrocento', serif  !important;
 }
 
 body.custom-font-enabled {
-	font-family: font-family: 'Grand+Hotel', serif;
+  font-family: 'Quattrocento', serif !important;
 }
